@@ -1,0 +1,66 @@
+
+body{
+    height: 2000vh;
+}
+form{
+    width: 340px;
+    box-shadow: 0  0  20px 5px rgb(195, 193, 193);
+    padding: 20px;
+    margin: 120px;
+    margin-left: 700px;
+  
+    border: none;
+}
+input{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+
+    border: 0.5px solid wheat;
+}
+#class{
+    margin: 30px;
+}
+#class:hover{
+    text-decoration: underline;
+
+}
+
+
+a{
+text-decoration:none ;
+color: white;
+}
+button{
+    border: none;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar{
+    width: 1    0px;
+    background-color: black;
+    background-image: url(pexels-sorrasfilms-15913171.jpg );
+    background-size: c;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    box-shadow: 0 0 40px 40px red;
+}
+::-webkit-scrollbar-button{
+
+    background-color: red;
+}
+
+::selection{
+    background-color: black;
+    color: red;
+}
+#m{
+    background-image: url(pexels-sorrasfilms-15913171.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
